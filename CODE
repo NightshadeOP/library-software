@@ -1,0 +1,16 @@
+import time
+print("hello !")
+time.sleep(0.5)
+n=int(input("how many books would you like to enter in the library ? : "))
+t=tuple()
+
+for j in range(n):
+    n=1
+    a=input(f"enter tha name of the {n} book , author and date of book : ")
+    for i in range(3):
+        n=n+1
+        t=t+(a,)
+        print("the book information is : ")
+        print(t)
+
+print(f"total books entered are : {t}")
